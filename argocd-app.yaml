@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/thasir/my-python-app'
     targetRevision: HEAD
-    path: my-python-app/manifests  # Correct path to the manifests directory
+    path: manifests  # Correct path to the manifests directory
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
